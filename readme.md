@@ -90,5 +90,5 @@ curl -w '\n' http://localhost:7071/api/HttpTrigger
 Using the Azure Functions Core Tools, run the following command. Replace <APP_NAME> with the name of your Linux Function App.
 
 ```bash
-func azure functionapp publish <APP_NAME> -i --build-native-deps
+func azure functionapp publish <APP_NAME> --publish-local-settings --build-native-deps
 ```
